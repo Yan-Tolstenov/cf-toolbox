@@ -1,7 +1,7 @@
 Cloud Foundry Toolbox
 =====================
 
-The https://cf-toolbox.cfapps.io site is a community showcase and discovery site. Find all the wonderful tools, apps, service brokers, plugins and more by other Cloud Foundry users.
+The https://cf-toolbox.org site is a community showcase and discovery site. Find all the wonderful tools, apps, service brokers, plugins and more by other Cloud Foundry users.
 
 Forking/Pull Requests
 ---------------------
