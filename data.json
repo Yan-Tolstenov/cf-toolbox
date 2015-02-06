@@ -61,6 +61,23 @@
       ]
     },
     {
+      "name": "App Libraries",
+      "wrappers": [
+        {
+          "name": "Java component library",
+          "url": "https://github.com/cloudfoundry-community/cf-java-component",
+          "description": "A set of libraries for building Cloud Foundry components on the Java platform.",
+          "tags": [
+            "cloudfoundry",
+            "library"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Buildpacks",
       "wrappers": [
         {
@@ -99,11 +116,54 @@
           ]
         },
         {
+          "name": "terraform-aws-bosh",
+          "url": "https://github.com/cloudfoundry-community/terraform-aws-bosh",
+          "description": "This project will create an AWS VPC with subnets/route tables, a bastion VM (aka jumpbox/inception server), NAT (for outbound traffic), and a Micro BOSH.",
+          "tags": [
+            "BOSH",
+            "terraform",
+            "bastion",
+            "inception"
+          ],
+          "platforms": [
+            "AWS"
+          ]
+        },
+        {
+          "name": "BOSH Workspace for Cloud Foundry",
+          "url": "https://github.com/cloudfoundry-community/cf-boshworkspace",
+          "description": "This project's purpose is to help you easily deploy CloudFoundry in various configurations, small to large, in AWS.",
+          "tags": [
+            "BOSH",
+            "cloudfoundry",
+            "bosh-workspace",
+            "spiff"
+          ],
+          "platforms": [
+            "AWS"
+          ]
+        },
+        {
+          "name": "BOSH Workspace",
+          "url": "https://github.com/cloudfoundry-incubator/bosh-workspace",
+          "description": "This is a bosh cli plugin for creating reproducible and upgradable deployments.",
+          "tags": [
+            "BOSH",
+            "BOSH CLI plugin",
+            "bosh-workspace",
+            "spiff"
+          ],
+          "platforms": [
+            "AWS"
+          ]
+        },
+        {
           "name": "bosh bootstrap",
           "url": "https://github.com/cloudfoundry-community/bosh-bootstrap",
           "description": "From zero to a running micro BOSH in one command line.",
           "tags": [
             "BOSH",
+            "BOSH CLI plugin",
             "bastion",
             "inception",
             "ruby"
