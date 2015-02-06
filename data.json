@@ -14,13 +14,13 @@
             "inception",
             "cloudfoundry",
             "cf-release",
-            "service-broker",
+            "service-broker"
           ],
           "platforms": [
-            "AWS",
+            "AWS"
           ]
-        },
+        }
       ]
-    },
+    }
   ]
 }
