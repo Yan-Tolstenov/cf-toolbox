@@ -252,6 +252,19 @@
           ]
         },
         {
+          "name": "Shared Community BOSH releases",
+          "url": "https://github.com/cloudfoundry-community/community-shared-boshreleases#readme",
+          "description": "See also https://bosh.io This project references BOSH release tarballs from across the BOSH community.",
+          "tags": [
+            "BOSH",
+            "BOSH release",
+            "wiki"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
+        {
           "name": "Community Wiki",
           "url": "https://github.com/cloudfoundry-community/cf-docs-contrib/wiki",
           "description": "This wiki is a scrapbook of information and links about Cloud Foundry, the open source Platform as a Service.",
