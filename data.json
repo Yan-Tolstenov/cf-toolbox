@@ -70,7 +70,7 @@
           "tags": [
             "cloudfoundry",
             "buildpack",
-            "java",
+            "java"
           ],
           "platforms": [
             "AWS", "OpenStack", "vSphere", "Warden"
@@ -134,7 +134,7 @@
             "BOSH release",
             "cloudfoundry",
             "service-broker",
-            "docker",
+            "docker"
           ],
           "platforms": [
             "AWS", "OpenStack", "Warden"
@@ -143,12 +143,12 @@
         {
           "name": "Service Broker using Docker containers",
           "url": "https://github.com/cf-platform-eng/cf-containers-broker",
-          "description": "A generic "Containers" broker for the Cloud Foundry v2 services API.",
+          "description": "A generic 'Containers' broker for the Cloud Foundry v2 services API.",
           "tags": [
             "cloudfoundry",
             "service-broker",
             "ruby",
-            "docker",
+            "docker"
           ],
           "platforms": [
             "AWS", "OpenStack", "Warden"
@@ -161,7 +161,7 @@
           "tags": [
             "BOSH",
             "BOSH release",
-            "docker",
+            "docker"
           ],
           "platforms": [
             "AWS", "OpenStack", "Warden"
