@@ -274,6 +274,20 @@
           ]
         },
         {
+          "name": "Service Gateway v1 for many services/databases",
+          "url": "https://github.com/cloudfoundry-community/cf-services-contrib-release",
+          "description": "This repository contains a 8 services that can be added into your own Cloud Foundry using the legacy v1 Services API.",
+          "tags": [
+            "BOSH",
+            "cloudfoundry",
+            "service-broker",
+            "spiff"
+          ],
+          "platforms": [
+            "OpenStack", "Warden"
+          ]
+        },
+        {
           "name": "Service Broker for Amazon S3",
           "url": "https://github.com/cloudfoundry-community/s3-cf-service-broker",
           "description": "Service Broker for Amazon S3 built using the spring-boot-cf-service-broker.\nThe broker currently publishes a single service and plan for provisioning S3 buckets.",
