@@ -61,6 +61,24 @@
       ]
     },
     {
+      "name": "Buildpacks",
+      "wrappers": [
+        {
+          "name": "JBoss buildpack",
+          "url": "https://github.com/cloudfoundry-community/jboss-buildpack",
+          "description": "Cloud Foundry buildpack for running Java applications.",
+          "tags": [
+            "cloudfoundry",
+            "buildpack",
+            "java",
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Operations",
       "wrappers": [
         {
