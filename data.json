@@ -18,6 +18,34 @@
           ]
         },
         {
+          "name": "cf live-stats",
+          "url": "https://github.com/danhigham/cf-live-stats",
+          "description": "This plug-in allows you to view live usage stats for an application in a browser.",
+          "tags": [
+            "cloudfoundry",
+            "cli-plugin",
+            "app"
+            "golang"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
+        {
+          "name": "cf org-space",
+          "url": "https://github.com/avade/org_space_cf_cli_plugin",
+          "description": "Org-Space will automatically detect whether the organisation and space exist, if not it will create them, and finally target them.",
+          "tags": [
+            "cloudfoundry",
+            "cli-plugin",
+            "app"
+            "golang"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
+        {
           "name": "cf seed",
           "url": "https://github.com/cloudfoundry-community/cf-plugin-seed",
           "description": "Seed creates orgs, spaces, and pushes applications to a new Cloud Foundry.",
