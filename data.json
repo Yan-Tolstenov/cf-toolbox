@@ -185,11 +185,28 @@
         {
           "name": "Consul BOSH release",
           "url": "https://github.com/cloudfoundry-community/consul-boshrelease",
-          "description": "Service Broker for Amazon S3 built using the spring-boot-cf-seBOSH release for consul.",
+          "description": "BOSH release for consul.",
           "tags": [
             "BOSH",
             "BOSH release",
+            "service discovery",
+            "consul",
             "key-value"
+          ],
+          "platforms": [
+            "AWS", "Warden"
+          ]
+        },
+        {
+          "name": "Consul monitoring of Cloud Foundry",
+          "url": "https://github.com/cloudfoundry-community/cf-consul-boshrelease",
+          "description": "Monitor/advertise each job template from cf-release via consul",
+          "tags": [
+            "cloudfoundry",
+            "BOSH release",
+            "monitoring",
+            "service discovery",
+            "consul"
           ],
           "platforms": [
             "AWS", "Warden"
