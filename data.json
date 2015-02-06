@@ -81,6 +81,20 @@
           ]
         },
         {
+          "name": "bosh bootstrap",
+          "url": "https://github.com/cloudfoundry-community/bosh-bootstrap",
+          "description": "From zero to a running micro BOSH in one command line.",
+          "tags": [
+            "BOSH",
+            "bastion",
+            "inception",
+            "ruby"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere"
+          ]
+        },
+        {
           "name": "World's Simple Service Broker",
           "url": "https://github.com/cloudfoundry-community/worlds-simplest-service-broker",
           "description": "One service broker sharing the same binding credentials with everyone.",
@@ -162,6 +176,18 @@
           "platforms": [
             "AWS", "Warden"
           ]
+        },
+        {
+          "name": "Choose your own infrastructure",
+          "url": "https://github.com/cloudfoundry-community/cyoi",
+          "description": "A library to ask an end-user to choose an infrastructure (AWS, OpenStack, etc), region, and login credentials.",
+          "tags": [
+            "ruby",
+            "library"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere"
+          ]
         }
       ]
     },
@@ -202,6 +228,18 @@
             "bosh",
             "app",
             "golang"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
+        {
+          "name": "Community Wiki",
+          "url": "https://github.com/cloudfoundry-community/cf-docs-contrib/wiki",
+          "description": "This wiki is a scrapbook of information and links about Cloud Foundry, the open source Platform as a Service.",
+          "tags": [
+            "cloudfoundry",
+            "wiki"
           ],
           "platforms": [
             "AWS", "OpenStack", "vSphere", "Warden"
