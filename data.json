@@ -79,6 +79,19 @@
           "platforms": [
             "AWS", "OpenStack", "vSphere", "Warden"
           ]
+        },
+        {
+          "name": "Consul BOSH release",
+          "url": "https://github.com/cloudfoundry-community/consul-boshrelease",
+          "description": "Service Broker for Amazon S3 built using the spring-boot-cf-seBOSH release for consul.",
+          "tags": [
+            "BOSH",
+            "BOSH release",
+            "key-value"
+          ],
+          "platforms": [
+            "AWS", "Warden"
+          ]
         }
       ]
     },
