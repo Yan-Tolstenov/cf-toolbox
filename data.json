@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "name": "Plugins",
+      "name": "Cloud Foundry CLI",
       "wrappers": [
         {
           "name": "cf open",
@@ -99,6 +99,37 @@
       "name": "Operations",
       "wrappers": [
         {
+          "name": "traveling-bosh",
+          "url": "https://github.com/cloudfoundry-community/traveling-bosh/releases",
+          "description": "This project packages the BOSH CLI (with plugins), terraform and spiff into self-contained packages that can be downloaded and used by anyone without requiring Ruby and native extensions.",
+          "tags": [
+            "bastion",
+            "inception",
+            "BOSH",
+            "installer",
+            "terraform",
+            "spiff",
+            "bosh-workspace"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
+        {
+          "name": "traveling-cf-admin",
+          "url": "https://github.com/cloudfoundry-community/traveling-cf-admin/releases",
+          "description": "This project packages the CLIs used by Cloud Foundry administrators - the cf CLI and useful admin plugins, and the uaac CLI (a Ruby gem).",
+          "tags": [
+            "bastion",
+            "inception",
+            "cloudfoundry",
+            "installer"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
+        {
           "name": "terraform-aws-cf-install",
           "url": "https://github.com/cloudfoundry-community/terraform-aws-cf-install",
           "description": "Simple, fast bootstrap of Cloud Foundry into new AWS VPC.",
@@ -154,7 +185,7 @@
             "spiff"
           ],
           "platforms": [
-            "AWS"
+            "AWS", "OpenStack", "vSphere", "Warden"
           ]
         },
         {
@@ -228,6 +259,21 @@
           ]
         },
         {
+          "name": "BOSH Workspace for Docker Service Broker",
+          "url": "https://github.com/cloudfoundry-community/docker-services-boshworkspace",
+          "description": "The fastest way to deploy Docker Services in combination with Cloud Foundry.",
+          "tags": [
+            "BOSH",
+            "cloudfoundry",
+            "service-broker",
+            "bosh-workspace",
+            "spiff"
+          ],
+          "platforms": [
+            "AWS", "Warden"
+          ]
+        },
+        {
           "name": "Service Broker for Amazon S3",
           "url": "https://github.com/cloudfoundry-community/s3-cf-service-broker",
           "description": "Service Broker for Amazon S3 built using the spring-boot-cf-service-broker.\nThe broker currently publishes a single service and plan for provisioning S3 buckets.",
@@ -289,6 +335,18 @@
     {
       "name": "Community",
       "wrappers": [
+        {
+          "name": "Community Advisory Board minutes",
+          "url": "http://www.activestate.com/blog/tag/blog-tags/cab",
+          "description": "Phil Whelan writes up a summary of every monthly CAB meeting",
+          "tags": [
+            "cloudfoundry",
+            "BOSH"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
         {
           "name": "Cloud Foundry Toolbox",
           "url": "https://github.com/cloudfoundry-community/cf-toolbox",
