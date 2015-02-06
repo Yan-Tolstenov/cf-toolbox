@@ -24,7 +24,7 @@
           "tags": [
             "cloudfoundry",
             "cli-plugin",
-            "app"
+            "app",
             "golang"
           ],
           "platforms": [
@@ -38,7 +38,7 @@
           "tags": [
             "cloudfoundry",
             "cli-plugin",
-            "app"
+            "app",
             "golang"
           ],
           "platforms": [
