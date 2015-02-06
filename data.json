@@ -100,6 +100,37 @@
       ]
     },
     {
+      "name": "Applications",
+      "wrappers": [
+        {
+          "name": "spring-music demo app",
+          "url": "https://github.com/cloudfoundry-samples/spring-music",
+          "description": "A sample application for using database services on Cloud Foundry with Spring Framework.",
+          "tags": [
+            "cloudfoundry",
+            "java",
+            "app"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
+        {
+          "name": "show cf environment",
+          "url": "https://github.com/cloudfoundry-community/cf-env",
+          "description": "Demo web app that displays Cloud Foundry environment variables",
+          "tags": [
+            "cloudfoundry",
+            "ruby",
+            "app"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        }
+      ]
+    },
+    {
       "name": "App Libraries",
       "wrappers": [
         {
