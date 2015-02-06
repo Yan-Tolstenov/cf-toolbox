@@ -333,6 +333,34 @@
           ]
         },
         {
+          "name": "Redis BOSH release",
+          "url": "https://github.com/cloudfoundry-community/redis-boshrelease",
+          "description": "One of the fastest ways to get redis running on any infrastructure is too deploy this BOSH release.",
+          "tags": [
+            "BOSH",
+            "BOSH release",
+            "redis"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "Warden"
+          ]
+        },
+        {
+          "name": "Redis/Consul BOSH release",
+          "url": "https://github.com/cloudfoundry-community/redis-consul-boshrelease",
+          "description": "Advertise/monitor Redis clusters with Consul.",
+          "tags": [
+            "BOSH",
+            "BOSH release",
+            "redis",
+            "service discovery",
+            "consul"
+          ],
+          "platforms": [
+            "AWS", "Warden"
+          ]
+        },
+        {
           "name": "Service Broker for Amazon S3",
           "url": "https://github.com/cloudfoundry-community/s3-cf-service-broker",
           "description": "Service Broker for Amazon S3 built using the spring-boot-cf-service-broker.\nThe broker currently publishes a single service and plan for provisioning S3 buckets.",
