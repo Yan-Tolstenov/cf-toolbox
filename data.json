@@ -4,6 +4,19 @@
       "name": "Cloud Foundry CLI",
       "wrappers": [
         {
+          "name": "cf console",
+          "url": "https://github.com/danhigham/cf-console",
+          "description": "Connect into an app container using the CF CLI.",
+          "tags": [
+            "cloudfoundry",
+            "cli-plugin",
+            "golang"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
+        {
           "name": "cf open",
           "url": "https://github.com/cloudfoundry-community/cf-plugin-open",
           "description": "Easily open Cloud Foundry apps & service dashboards in browser.",
