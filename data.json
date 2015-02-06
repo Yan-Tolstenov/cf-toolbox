@@ -57,7 +57,7 @@
           "platforms": [
             "AWS", "OpenStack", "vSphere", "Warden"
           ]
-        }
+        },
         {
           "name": "CF Playground",
           "url": "https://github.com/cloudfoundry-community/cfplayground",
@@ -81,7 +81,35 @@
           "description": "A set of libraries for building Cloud Foundry components on the Java platform.",
           "tags": [
             "cloudfoundry",
-            "library"
+            "library",
+            "java"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
+        {
+          "name": "go-cfenv",
+          "url": "https://github.com/cloudfoundry-community/go-cfenv",
+          "description": "cfenv is a package to assist you in writing Go apps that run on Cloud Foundry. It provides convenience functions and structures that map to Cloud Foundry environment variable primitives.",
+          "tags": [
+            "cloudfoundry",
+            "library",
+            "golang"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
+        {
+          "name": "go-cfclient",
+          "url": "https://github.com/cloudfoundry-community/go-cfclient",
+          "description": "cfclient is a package to assist you in writing apps that need information out of Cloud Foundry. It provides functions and structures to retrieve data from Cloud Controller API.",
+          "tags": [
+            "cloudfoundry",
+            "api",
+            "library",
+            "golang"
           ],
           "platforms": [
             "AWS", "OpenStack", "vSphere", "Warden"
@@ -218,13 +246,27 @@
         {
           "name": "Consul monitoring of Cloud Foundry",
           "url": "https://github.com/cloudfoundry-community/cf-consul-boshrelease",
-          "description": "Monitor/advertise each job template from cf-release via consul",
+          "description": "Monitor/advertise each job template from cf-release via consul.",
           "tags": [
             "cloudfoundry",
             "BOSH release",
             "monitoring",
             "service discovery",
             "consul"
+          ],
+          "platforms": [
+            "AWS", "Warden"
+          ]
+        },
+        {
+          "name": "Jenkins BOSH release",
+          "url": "https://github.com/cloudfoundry-community/jenkins-boshrelease",
+          "description": "One of the fastest ways to get Jenkins running on any infrastructure is to deploy this bosh release.",
+          "tags": [
+            "BOSH",
+            "BOSH release",
+            "jenkins",
+            "ci"
           ],
           "platforms": [
             "AWS", "Warden"
