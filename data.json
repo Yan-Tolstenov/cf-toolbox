@@ -18,6 +18,20 @@
           ]
         },
         {
+          "name": "cf zero-downtime-push",
+          "url": "https://github.com/concourse/autopilot",
+          "description": "CF plugin for hands-off, zero downtime application deploys.",
+          "tags": [
+            "cloudfoundry",
+            "cli-plugin",
+            "service-broker",
+            "golang"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
+        {
           "name": "cf live-stats",
           "url": "https://github.com/danhigham/cf-live-stats",
           "description": "This plug-in allows you to view live usage stats for an application in a browser.",
