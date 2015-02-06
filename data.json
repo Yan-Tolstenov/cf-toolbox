@@ -138,6 +138,32 @@
           "platforms": [
             "AWS", "OpenStack", "vSphere", "Warden"
           ]
+        },
+        {
+          "name": "BOSH Hub",
+          "url": "bosh.io",
+          "description": "bosh.io site",
+          "tags": [
+            "bosh",
+            "app",
+            "golang"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
+        {
+          "name": "BOSH Hub - Repo",
+          "url": "https://github.com/cppforlife/bosh-hub",
+          "description": "bosh.io site source",
+          "tags": [
+            "bosh",
+            "app",
+            "golang"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
         }
       ]
     }
