@@ -58,6 +58,18 @@
             "AWS", "OpenStack", "vSphere", "Warden"
           ]
         }
+        {
+          "name": "CF Playground",
+          "url": "https://github.com/cloudfoundry-community/cfplayground",
+          "description": "The goal of this project is to provide an easily accessible environment for users who want to experience Cloud Foundry, without having to setup and to learn the operation of the platform. CF Playground provides an interactive tutorial.",
+          "tags": [
+            "cloudfoundry",
+            "app"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        }
       ]
     },
     {
@@ -204,6 +216,38 @@
           ]
         },
         {
+          "name": "Consul monitoring of Cloud Foundry",
+          "url": "https://github.com/cloudfoundry-community/cf-consul-boshrelease",
+          "description": "Monitor/advertise each job template from cf-release via consul",
+          "tags": [
+            "cloudfoundry",
+            "BOSH release",
+            "monitoring",
+            "service discovery",
+            "consul"
+          ],
+          "platforms": [
+            "AWS", "Warden"
+          ]
+        },
+        {
+          "name": "Choose your own infrastructure",
+          "url": "https://github.com/cloudfoundry-community/cyoi",
+          "description": "A library to ask an end-user to choose an infrastructure (AWS, OpenStack, etc), region, and login credentials.",
+          "tags": [
+            "ruby",
+            "library"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Services",
+      "wrappers": [
+        {
           "name": "World's Simple Service Broker",
           "url": "https://github.com/cloudfoundry-community/worlds-simplest-service-broker",
           "description": "One service broker sharing the same binding credentials with everyone.",
@@ -214,6 +258,21 @@
           ],
           "platforms": [
             "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
+        {
+          "name": "BOSH Workspace for Docker Service Broker",
+          "url": "https://github.com/cloudfoundry-community/docker-services-boshworkspace",
+          "description": "The fastest way to deploy Docker Services in combination with Cloud Foundry.",
+          "tags": [
+            "BOSH",
+            "cloudfoundry",
+            "service-broker",
+            "bosh-workspace",
+            "spiff"
+          ],
+          "platforms": [
+            "AWS", "Warden"
           ]
         },
         {
@@ -259,32 +318,18 @@
           ]
         },
         {
-          "name": "BOSH Workspace for Docker Service Broker",
-          "url": "https://github.com/cloudfoundry-community/docker-services-boshworkspace",
-          "description": "The fastest way to deploy Docker Services in combination with Cloud Foundry.",
+          "name": "Consul BOSH release",
+          "url": "https://github.com/cloudfoundry-community/consul-boshrelease",
+          "description": "BOSH release for consul.",
           "tags": [
             "BOSH",
-            "cloudfoundry",
-            "service-broker",
-            "bosh-workspace",
-            "spiff"
+            "BOSH release",
+            "service discovery",
+            "consul",
+            "key-value"
           ],
           "platforms": [
             "AWS", "Warden"
-          ]
-        },
-        {
-          "name": "Service Gateway v1 for many services/databases",
-          "url": "https://github.com/cloudfoundry-community/cf-services-contrib-release",
-          "description": "This repository contains a 8 services that can be added into your own Cloud Foundry using the legacy v1 Services API.",
-          "tags": [
-            "BOSH",
-            "cloudfoundry",
-            "service-broker",
-            "spiff"
-          ],
-          "platforms": [
-            "OpenStack", "Warden"
           ]
         },
         {
@@ -303,45 +348,31 @@
           ]
         },
         {
-          "name": "Consul BOSH release",
-          "url": "https://github.com/cloudfoundry-community/consul-boshrelease",
-          "description": "BOSH release for consul.",
+          "name": "BOSH CLI plugin for Consul",
+          "url": "https://github.com/cloudfoundry-community/bosh_cli_plugin_consul",
+          "description": "If you're using consul within your BOSH deployments (such as redis-boshrelease), or running a cluster of consul servers (consul-boshrelease), this BOSH CLI plugin is a very handy ops tool.",
           "tags": [
             "BOSH",
-            "BOSH release",
-            "service discovery",
-            "consul",
-            "key-value"
-          ],
-          "platforms": [
-            "AWS", "Warden"
-          ]
-        },
-        {
-          "name": "Consul monitoring of Cloud Foundry",
-          "url": "https://github.com/cloudfoundry-community/cf-consul-boshrelease",
-          "description": "Monitor/advertise each job template from cf-release via consul",
-          "tags": [
-            "cloudfoundry",
-            "BOSH release",
-            "monitoring",
+            "BOSH CLI plugin",
             "service discovery",
             "consul"
           ],
           "platforms": [
-            "AWS", "Warden"
+            "AWS", "OpenStack", "vSphere", "Warden"
           ]
         },
         {
-          "name": "Choose your own infrastructure",
-          "url": "https://github.com/cloudfoundry-community/cyoi",
-          "description": "A library to ask an end-user to choose an infrastructure (AWS, OpenStack, etc), region, and login credentials.",
+          "name": "Service Gateway v1 for many services/databases",
+          "url": "https://github.com/cloudfoundry-community/cf-services-contrib-release",
+          "description": "This repository contains a 8 services that can be added into your own Cloud Foundry using the legacy v1 Services API.",
           "tags": [
-            "ruby",
-            "library"
+            "BOSH",
+            "cloudfoundry",
+            "service-broker",
+            "spiff"
           ],
           "platforms": [
-            "AWS", "OpenStack", "vSphere"
+            "OpenStack", "Warden"
           ]
         }
       ]
