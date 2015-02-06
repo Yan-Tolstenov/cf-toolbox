@@ -94,6 +94,48 @@
           ]
         },
         {
+          "name": "Service Broker using Docker - BOSH release",
+          "url": "https://github.com/cf-platform-eng/docker-boshrelease",
+          "description": "Offer one of 16 different services via pre-configured Docker images.",
+          "tags": [
+            "BOSH",
+            "BOSH release",
+            "cloudfoundry",
+            "service-broker",
+            "docker",
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "Warden"
+          ]
+        },
+        {
+          "name": "Service Broker using Docker containers",
+          "url": "https://github.com/cf-platform-eng/cf-containers-broker",
+          "description": "A generic "Containers" broker for the Cloud Foundry v2 services API.",
+          "tags": [
+            "cloudfoundry",
+            "service-broker",
+            "ruby",
+            "docker",
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "Warden"
+          ]
+        },
+        {
+          "name": "Docker BOSH release",
+          "url": "https://github.com/cf-platform-eng/docker-boshrelease",
+          "description": "One of the fastest ways to get Docker and orchestrate containers with persistent data on any infrastructure is to deploy this BOSH release.",
+          "tags": [
+            "BOSH",
+            "BOSH release",
+            "docker",
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "Warden"
+          ]
+        },
+        {
           "name": "Service Broker for Amazon S3",
           "url": "https://github.com/cloudfoundry-community/s3-cf-service-broker",
           "description": "Service Broker for Amazon S3 built using the spring-boot-cf-service-broker.\nThe broker currently publishes a single service and plan for provisioning S3 buckets.",
