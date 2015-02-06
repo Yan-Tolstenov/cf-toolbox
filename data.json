@@ -1,6 +1,38 @@
 {
   "categories": [
     {
+      "name": "Plugins",
+      "wrappers": [
+        {
+          "name": "cf open",
+          "url": "https://github.com/cloudfoundry-community/cf-plugin-open",
+          "description": "Easily open Cloud Foundry apps & service dashboards in browser.",
+          "tags": [
+            "cloudfoundry",
+            "cli-plugin",
+            "service-broker",
+            "golang"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
+        {
+          "name": "cf seed",
+          "url": "https://github.com/cloudfoundry-community/cf-plugin-seed",
+          "description": "Seed creates orgs, spaces, and pushes applications to a new Cloud Foundry.",
+          "tags": [
+            "cloudfoundry",
+            "cli-plugin",
+            "golang"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Operations",
       "wrappers": [
         {
@@ -18,6 +50,52 @@
           ],
           "platforms": [
             "AWS"
+          ]
+        },
+        {
+          "name": "World's Simple Service Broker",
+          "url": "https://github.com/cloudfoundry-community/worlds-simplest-service-broker",
+          "description": "One service broker sharing the same binding credentials with everyone.",
+          "tags": [
+            "cloudfoundry",
+            "service-broker",
+            "golang"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
+        {
+          "name": "Service Broker for Amazon S3",
+          "url": "https://github.com/cloudfoundry-community/s3-cf-service-broker",
+          "description": "Service Broker for Amazon S3 built using the spring-boot-cf-service-broker.\nThe broker currently publishes a single service and plan for provisioning S3 buckets.",
+          "tags": [
+            "cloudfoundry",
+            "service-broker",
+            "spring-boot",
+            "AWS s3",
+            "blobstore"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Miscellaneous",
+      "wrappers": [
+        {
+          "name": "Cloud Foundry Toolbox",
+          "url": "https://github.com/cloudfoundry-community/cf-toolbox",
+          "description": "This site to share community contributions to Cloud Foundry",
+          "tags": [
+            "cloudfoundry",
+            "app",
+            "ruby"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
           ]
         }
       ]
