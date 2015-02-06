@@ -115,6 +115,21 @@
             "AWS", "OpenStack", "vSphere", "Warden"
           ]
         }
+        {
+          "name": "cf-go-client-example",
+          "url": "https://github.com/cloudfoundry-community/cf-go-client-example",
+          "description": "Example Go application that is an OAuth UAA client.",
+          "tags": [
+            "cloudfoundry",
+            "api",
+            "library",
+            "uaa",
+            "golang"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        }
       ]
     },
     {
@@ -270,6 +285,34 @@
           ],
           "platforms": [
             "AWS", "Warden"
+          ]
+        },
+        {
+          "name": "Logsearch BOSH workspace",
+          "url": "https://github.com/cloudfoundry-community/logsearch-boshworkspace",
+          "description": "The fastest way to deploy Logsearch in combination with Cloud Foundry.",
+          "tags": [
+            "BOSH",
+            "bosh-workspace",
+            "logsearch",
+            "logging"
+          ],
+          "platforms": [
+            "Warden"
+          ]
+        },
+        {
+          "name": "Cloud Foundry/BOSH Jenkins Build System",
+          "url": "https://github.com/cloudfoundry-community/cf-jenkins-cookbook",
+          "description": "The purpose of this cookbook is to create a Jenkins build and test environment for Cloud Foundry and BOSH.",
+          "tags": [
+            "cloudfoundry",
+            "BOSH",
+            "jenkins",
+            "chef cookbook"
+          ],
+          "platforms": [
+            "OpenStack"
           ]
         },
         {
