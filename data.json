@@ -274,6 +274,18 @@
       "name": "Buildpacks",
       "wrappers": [
         {
+          "name": "Staticfile buildpack",
+          "url": "https://github.com/cloudfoundry-incubator/staticfile-buildpack",
+          "description": "Deploy static HTML/JS/CSS apps to Cloud Foundry.",
+          "tags": [
+            "cloudfoundry",
+            "buildpack"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        }
+        {
           "name": "JBoss buildpack",
           "url": "https://github.com/cloudfoundry-community/jboss-buildpack",
           "description": "Cloud Foundry buildpack for running Java applications.",
