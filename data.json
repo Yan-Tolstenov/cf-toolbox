@@ -103,6 +103,19 @@
       "name": "Applications",
       "wrappers": [
         {
+          "name": "etherpad-lite",
+          "url": "https://github.com/cloudfoundry-community/etherpad-lite-cf",
+          "description": "This repo contains a modified version of the original etherpad-lite modified to natively run on cloudfoundry, possibly on an offline mode.",
+          "tags": [
+            "cloudfoundry",
+            "nodejs",
+            "app"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
+        {
           "name": "spring-music demo app",
           "url": "https://github.com/cloudfoundry-samples/spring-music",
           "description": "A sample application for using database services on Cloud Foundry with Spring Framework.",
@@ -371,6 +384,32 @@
           ],
           "platforms": [
             "OpenStack"
+          ]
+        },
+        {
+          "name": "Cloud Foundry Admin UI",
+          "url": "https://github.com/cloudfoundry-incubator/admin-ui",
+          "description": "An application for viewing Cloud Foundry metrics and operations data.",
+          "tags": [
+            "cloudfoundry",
+            "ruby",
+            "app"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
+        {
+          "name": "Cloud Foundry Admin UI BOSH Release",
+          "url": "https://github.com/cloudfoundry-community/admin-ui-boshrelease",
+          "description": "One of the fastest ways to get Cloud Foundry Admin UI running on any infrastructure is too deploy this bosh release.",
+          "tags": [
+            "cloudfoundry",
+            "BOSH release",
+            "app"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
           ]
         },
         {
