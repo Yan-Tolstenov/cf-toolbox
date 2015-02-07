@@ -702,6 +702,19 @@
           "platforms": [
             "OpenStack", "Warden"
           ]
+        },
+        {
+          "name": "Docker Registry BOSH release",
+          "url": "https://github.com/cloudfoundry-community/docker-registry-boshrelease",
+          "description": "Run your own private Docker Registry in standalone mode (without requiring the public index) on AWS, OpenStack or vSphere with BOSH.",
+          "tags": [
+            "BOSH",
+            "BOSH release",
+            "docker"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
         }
       ]
     },
