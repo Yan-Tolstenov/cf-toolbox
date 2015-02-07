@@ -84,7 +84,12 @@
           "platforms": [
             "AWS", "OpenStack", "vSphere", "Warden"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "name": "Applications",
+      "wrappers": [
         {
           "name": "CF Playground",
           "url": "https://github.com/cloudfoundry-community/cfplayground",
@@ -96,12 +101,7 @@
           "platforms": [
             "AWS", "OpenStack", "vSphere", "Warden"
           ]
-        }
-      ]
-    },
-    {
-      "name": "Applications",
-      "wrappers": [
+        },
         {
           "name": "etherpad-lite",
           "url": "https://github.com/cloudfoundry-community/etherpad-lite-cf",
@@ -543,6 +543,18 @@
             "cloudfoundry",
             "service-broker",
             "golang"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
+        {
+          "name": "bosh-gen",
+          "url": "https://github.com/cloudfoundry-community/bosh-gen",
+          "description": "Generators for creating and sharing BOSH releases to describe services.",
+          "tags": [
+            "BOSH",
+            "generators"
           ],
           "platforms": [
             "AWS", "OpenStack", "vSphere", "Warden"
