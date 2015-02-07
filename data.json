@@ -116,6 +116,19 @@
           ]
         },
         {
+          "name": "ws-collector",
+          "url": "https://github.com/cloudfoundry-community/ws-collector",
+          "description": "Simple websocket bridge with configurable MQ back-end. Supports Apache Kafka, RabbitMQ, MQTT.",
+          "tags": [
+            "messaging",
+            "golang",
+            "app"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
+        {
           "name": "spring-music demo app",
           "url": "https://github.com/cloudfoundry-samples/spring-music",
           "description": "A sample application for using database services on Cloud Foundry with Spring Framework.",
@@ -147,6 +160,19 @@
       "name": "App Libraries",
       "wrappers": [
         {
+          "name": "cf-pancake",
+          "url": "https://github.com/cloudfoundry-community/cf-pancake",
+          "description": "Flatten $VCAP_SERVICES into regular environment variables.",
+          "tags": [
+            "cloudfoundry",
+            "tool",
+            "golang"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
+        {
           "name": "Java component library",
           "url": "https://github.com/cloudfoundry-community/cf-java-component",
           "description": "A set of libraries for building Cloud Foundry components on the Java platform.",
@@ -154,6 +180,20 @@
             "cloudfoundry",
             "library",
             "java"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
+        {
+          "name": "Java NATS library",
+          "url": "https://github.com/cloudfoundry-community/java-nats",
+          "description": "A Java client for the excellent NATS lightweight publish-subscribe and distributed queueing messaging system used by Cloud Foundry.",
+          "tags": [
+            "cloudfoundry",
+            "library",
+            "java",
+            "messaging"
           ],
           "platforms": [
             "AWS", "OpenStack", "vSphere", "Warden"
@@ -173,9 +213,36 @@
           ]
         },
         {
+          "name": "node-cfenv",
+          "url": "https://github.com/cloudfoundry-community/node-cfenv",
+          "description": "cfenv is a package to assist you in writing Node.JS apps that run on Cloud Foundry. It provides convenience functions and structures that map to Cloud Foundry environment variable primitives.",
+          "tags": [
+            "cloudfoundry",
+            "library",
+            "golang"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
+        {
           "name": "go-cfclient",
           "url": "https://github.com/cloudfoundry-community/go-cfclient",
           "description": "cfclient is a package to assist you in writing apps that need information out of Cloud Foundry. It provides functions and structures to retrieve data from Cloud Controller API.",
+          "tags": [
+            "cloudfoundry",
+            "api",
+            "library",
+            "golang"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
+        {
+          "name": "types-cf",
+          "url": "https://github.com/cloudfoundry-community/types-cf",
+          "description": "Common Cloud Foundry Go types compatible with the CF v2 API.",
           "tags": [
             "cloudfoundry",
             "api",
@@ -407,6 +474,33 @@
             "cloudfoundry",
             "BOSH release",
             "app"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
+        {
+          "name": "Go Go BOSH",
+          "url": "https://github.com/cloudfoundry-community/gogobosh",
+          "description": "Golang client library for applications wanting to talk to a BOSH/MicroBOSH or bosh-lite.",
+          "tags": [
+            "BOSH",
+            "golang",
+            "library"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
+        {
+          "name": "Go Go BOSH for Cloud Foundry deployments",
+          "url": "https://github.com/cloudfoundry-community/gogoboshcf",
+          "description": "The gogobosh golang package is a client library for a BOSH director. This gogoboshcf package enhances gogobosh for Cloud Foundry specific deployments.",
+          "tags": [
+            "cloudfoundry",
+            "BOSH",
+            "golang",
+            "library"
           ],
           "platforms": [
             "AWS", "OpenStack", "vSphere", "Warden"
