@@ -424,6 +424,30 @@
           ]
         },
         {
+          "name": "Verify BOSH connections",
+          "url": "https://github.com/cloudfoundry-community/bosh-verifyconnections",
+          "description": "BOSH CLI plugin that performs job interconnection verifications upon the target deployment.",
+          "tags": [
+            "BOSH",
+            "BOSH CLI plugin"
+          ],
+          "platforms": [
+            "OpenStack"
+          ]
+        },
+        {
+          "name": "Oh BOSH, will it fit?",
+          "url": "https://github.com/cloudfoundry-community/ohboshwillitfit",
+          "description": "Find out early if your target deployment will fit into the quota/available limits of your target OpenStack tenancy.",
+          "tags": [
+            "BOSH",
+            "BOSH CLI plugin"
+          ],
+          "platforms": [
+            "OpenStack"
+          ]
+        },
+        {
           "name": "Jenkins BOSH release",
           "url": "https://github.com/cloudfoundry-community/jenkins-boshrelease",
           "description": "One of the fastest ways to get Jenkins running on any infrastructure is to deploy this bosh release.",
