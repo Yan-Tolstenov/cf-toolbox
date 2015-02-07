@@ -103,6 +103,19 @@
           ]
         },
         {
+          "name": "Share My Cloud Foundry",
+          "url": "https://github.com/cloudfoundry-community/share-my-cloudfoundry",
+          "description": "A web app to let anyone at your company create their own account on your Cloud Foundry installation.",
+          "tags": [
+            "cloudfoundry",
+            "app",
+            "ruby"
+          ],
+          "platforms": [
+            "AWS", "OpenStack", "vSphere", "Warden"
+          ]
+        },
+        {
           "name": "etherpad-lite",
           "url": "https://github.com/cloudfoundry-community/etherpad-lite-cf",
           "description": "This repo contains a modified version of the original etherpad-lite modified to natively run on cloudfoundry, possibly on an offline mode.",
