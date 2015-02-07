@@ -462,6 +462,19 @@
           ]
         },
         {
+          "name": "Fake login-server",
+          "url": "https://github.com/cloudfoundry-community/fake_login_server",
+          "description": "Fake login server for external UAA auth.",
+          "tags": [
+            "cloudfoundry",
+            "uaa",
+            "app"
+          ],
+          "platforms": [
+            "AWS", "Warden"
+          ]
+        },
+        {
           "name": "Logsearch BOSH workspace",
           "url": "https://github.com/cloudfoundry-community/logsearch-boshworkspace",
           "description": "The fastest way to deploy Logsearch in combination with Cloud Foundry.",
